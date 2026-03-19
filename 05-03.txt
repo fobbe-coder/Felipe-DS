@@ -1,0 +1,30 @@
+package com.mycompany.aula3;
+
+import java.util.Scanner;
+
+public class Aula3 {
+    
+    public static void main(String[] args) {
+    
+    Scanner sc = new Scanner(System.in);
+    
+    double nota=0;
+    double media=0;
+    String nome;
+    String escola;
+    
+        System.out.println("Qual o seu nome?");
+        nome = sc.nextLine();
+        System.out.println("Qual sua ecola?");
+        escola = sc.nextLine();
+        for(int i = 0; i<6;i++)
+        {
+        nota = sc.nextDouble();
+        media = media + nota;
+    }
+        System.out.println(media);
+        
+        
+        
+}          
+}
